@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_assignment/screens/center_portion.dart';
+import 'package:flutter_assignment/screens/center_portion/center_portion.dart';
 import 'package:flutter_assignment/screens/menu.dart';
 
 class Dashboard extends StatelessWidget {

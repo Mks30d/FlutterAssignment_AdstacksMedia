@@ -11,7 +11,7 @@ class Menu extends StatelessWidget {
       child: Column(
         children: [
           CircleAvatar(
-            backgroundImage: AssetImage("assets/images/profilepic.jpeg"),
+            backgroundImage: AssetImage("assets/images/profilepic.jpg"),
             radius: 20,
             backgroundColor: Colors.red,
           ),
