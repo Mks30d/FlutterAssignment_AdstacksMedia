@@ -37,7 +37,7 @@ class DashboardNavbar extends StatelessWidget {
           Icon(Icons.notification_add_outlined, color: Color(0xff333D5D)),
           SizedBox(width: 11,),
           Icon(
-            Icons.lightbulb_circle,
+            Icons.restart_alt,
             color: Color(0xff333D5D),
           ),
           SizedBox(width: 50,),

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_assignment/screens/center_portion/center_portion.dart';
 import 'package:flutter_assignment/screens/menu.dart';
 import 'package:flutter_assignment/screens/navbar.dart';
+import 'package:flutter_assignment/screens/right_portion/right_portion.dart';
 
 class Dashboard extends StatelessWidget {
   const Dashboard({super.key});
@@ -46,10 +47,10 @@ class Dashboard extends StatelessWidget {
                           ),
 
                           Container(
-                            color: Colors.pink,
+                            color: Color(0xff1B254B),
                             width: 220,
                             height: double.infinity,
-                            child: Text("Menu"),
+                            child: RightPortion(),
                           ),
                         ],
                       ),

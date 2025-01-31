@@ -54,7 +54,7 @@ class CenterPortionSecondpart extends StatelessWidget {
         leading: ClipRRect(
           borderRadius: BorderRadius.all(Radius.circular(5)),
           child: Image(
-            image: AssetImage("assets/images/avatar.jpeg"),
+            image: AssetImage("assets/images/tech.jpeg"),
             height: 30,
           ),
         ),
