@@ -55,14 +55,14 @@ class CenterPortionFirstpart extends StatelessWidget {
               style: TextStyle(
                   fontSize: 8,
                   fontWeight: FontWeight.bold,
-                  color: Colors.white),
+                  color: Colors.white60),
             ),
             const Text(
               "Project Created by team.",
               style: TextStyle(
                   fontSize: 8,
                   fontWeight: FontWeight.bold,
-                  color: Colors.white),
+                  color: Colors.white60),
             ),
             SizedBox(
               height: 10,
@@ -80,7 +80,8 @@ class CenterPortionFirstpart extends StatelessWidget {
                 child: const Text(
                   "Learn More.",
                   style: TextStyle(fontSize: 11),
-                ))
+                )
+            )
           ],
         ),
       ),
