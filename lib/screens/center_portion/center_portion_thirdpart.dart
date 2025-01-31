@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_assignment/screens/right_portion/calendar.dart';
 
 class CenterPortionThirdpart extends StatelessWidget {
   const CenterPortionThirdpart({super.key});
@@ -6,13 +7,15 @@ class CenterPortionThirdpart extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(bottom: 11),
+      padding: EdgeInsets.only(bottom: 11),
       child: Container(
-        height: 100,
+        height: 175,
         width: 800,
         decoration: BoxDecoration(
             color: Colors.blueGrey,
-            borderRadius: BorderRadius.circular(30)),
+            borderRadius: BorderRadius.circular(30)
+        ),
+          // child: CalendarScreen(),
       ),
     );
   }

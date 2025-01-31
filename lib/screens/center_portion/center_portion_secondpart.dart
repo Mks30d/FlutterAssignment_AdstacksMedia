@@ -10,7 +10,7 @@ class CenterPortionSecondpart extends StatelessWidget {
         Row(
           children: [
             CircleAvatar(
-              backgroundImage: AssetImage("assets/images/profilepic.jpg"),
+              backgroundImage: AssetImage("assets/images/female.jpg"),
               radius: 10,
               backgroundColor: Colors.white,
             ),
@@ -100,11 +100,11 @@ class CenterPortionSecondpart extends StatelessWidget {
       height: 200,
       width: 800,
       decoration: BoxDecoration(
-          color: Colors.green, borderRadius: BorderRadius.circular(11)),
+          color: Color(0xffF1F1EF), borderRadius: BorderRadius.circular(11)),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          // ==============Second half===================
+          // ==============First half===================
           Container(
             width: 390,
             decoration: BoxDecoration(
@@ -132,6 +132,7 @@ class CenterPortionSecondpart extends StatelessWidget {
               ],
             ),
           ),
+
 
           // ==============Second half===================
           Container(

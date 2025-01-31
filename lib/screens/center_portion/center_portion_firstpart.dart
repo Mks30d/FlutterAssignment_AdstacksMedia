@@ -80,7 +80,8 @@ class CenterPortionFirstpart extends StatelessWidget {
                 child: const Text(
                   "Learn More.",
                   style: TextStyle(fontSize: 11),
-                ))
+                )
+            )
           ],
         ),
       ),
